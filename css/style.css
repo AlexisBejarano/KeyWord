@@ -1,0 +1,208 @@
+h1 {
+  color: red;
+}
+
+button{
+  border-radius: 5px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.error{
+  background-color: #FF5D5D;
+  transition: background-color .5s;
+}
+
+.errorRemove{
+  background-color: #FFFFFF; 
+  transition: background-color .5s;
+}
+
+
+.col{
+  flex: none;
+}
+
+.text-web{
+  margin-bottom: 30px;
+  font-size: 110px;
+  font-family: 'Space Mono', monospace;
+}
+
+.form-control{
+  width: 250px;
+}
+
+.banner-text{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.textAdivina{
+  font-size: 70px;
+}
+
+.espacioCuadros{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
+}
+
+.cuadroLetras{
+    background-color: #F7F7F7;
+    padding: 0px;
+    margin: 5px;
+    width: 80px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.inputAdivinarPalabra{
+  width: 435px;
+  height: 55px;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textLetra{
+  display: flex;
+    text-align: center;
+    width: 100%;
+    height: 47px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-top{
+  text-align: center;
+  border: solid 1px #0000003b;
+  width: 900px;
+  padding: 30px 30px 70px 30px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.container-inputText{
+  text-align: center;
+  border-bottom: solid 1px #00000069;
+}
+
+.cuadroLetras2{
+  background-color: #ffdada;
+}
+
+.colorLetraWin{
+  background-color: #68CE47;
+  border: solid 4px #c7ffc5;
+  border-radius: 5px;
+}
+
+.colorLetraWinAzul{
+  background-color: #4775CE;
+  border: solid 4px #d0c5ff;
+  border-radius: 5px;
+}
+
+.textIntentosMain{
+  width: 600px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.textIntentos{
+  font-size: 25px;
+}
+
+.textCantidadLetras{
+  font-size: 25px;
+}
+
+.btnAction{
+  width: 190px;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.btnAction2{
+  width: 190px;
+  font-size: 30px;
+  height: 55px;
+  margin-left: 10px;
+}
+
+.containerInputBtn{
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: center;
+}
+
+.containerLetras{
+  display: flex;
+  justify-content: space-around;
+  width: 625px;
+  margin: auto;
+
+}
+
+.animate__headShake{
+  --animate-duration: 1s;
+}
+
+.win{
+  font-size: 100px;
+  color: green;
+}
+.lose{
+  font-size: 100px;
+  color: red;
+}
+
+.letrasAbc{
+    display: flex;
+    border: solid 4px #c2c2c2;
+    border-radius: 5px;
+    width: 40px;
+    margin: 2px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.colorLetraWinAbc {
+    background-color: #68CE47;
+    border: solid 4px #c7ffc5;
+    display: flex;
+    border-radius: 5px;
+    width: 40px;
+    margin: 2px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.colorLetraLoseAbc {
+    background-color: #ce4747;
+    border: solid 4px #ffc5c5;
+    display: flex;
+    border-radius: 5px;
+    width: 40px;
+    margin: 2px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.charNumClass{
+      display: flex;
+    width: 305px;
+    margin: auto;
+}
